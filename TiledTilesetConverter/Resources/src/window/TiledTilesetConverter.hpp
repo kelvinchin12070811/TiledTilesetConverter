@@ -11,5 +11,11 @@ public:
 	TiledTilesetConverter(QWidget *parent = Q_NULLPTR);
 
 private:
+	void connectItems();
+
+private slots:
+	void onActionCloseClicked();
+
+private:
 	Ui::TiledTilesetConverterClass ui;
 };
